@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         //
         // walla misterfgw edwqqwdwqwqddwqwefefwfwefewfwewdqrfgd dfgs ¨dg fas
         // This is the theme of efyour application.
-        //
+        //wef
         // Try running your appGFVXNBlicaewtion with "flutter run". You'll see the
         // application has a bewffewefwwefefwfewefluwefe toolbar. Then, without quitting the app, try
         // changing the primarySwatch below toFDBBFDGBFDG Colors.green and then invoke
