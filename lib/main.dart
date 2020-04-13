@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         //
         // walla misterfgw edwqqwdwqwqddwqwefefwfwefewfwewdqrfgd dfgs ¨dg fas
-        // This is the theme of your application.
+        // This is the theme of efyour application.
         //
         // Try running your appGFVXNBlicaewtion with "flutter run". You'll see the
         // application has a bewffewefwwefefwfewefluwefe toolbar. Then, without quitting the app, try
