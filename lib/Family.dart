@@ -7,8 +7,8 @@ class Family{
 
   Family(String name,Member member){
     this._name =  name;
-   _members.add(member);
-
+    _members.add(member);
+    _news.add(new News ("Test","walla"));
   }
 
   String get name => _name;

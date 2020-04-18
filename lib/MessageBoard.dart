@@ -4,7 +4,6 @@ import 'Family.dart';
 class MessageBoard extends StatelessWidget{
 
   Family f = new Family("Carlen", Member("Leo"));
-  //f.createNews({name:("Test"), title:"test"});
 
   @override
   Widget build(BuildContext context) {
