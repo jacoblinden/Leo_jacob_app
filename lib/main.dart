@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -30,7 +31,8 @@ class Home extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     IconButton(
-                      icon: Icon(Icons.photo_library, size: 100, color: Colors.red),
+                      icon: Icon(Icons.photo_library,  color: Colors.red),
+                      iconSize: 100,
                       tooltip: 'Change your background',
                       onPressed: (){
                         Navigator.push(
@@ -40,8 +42,67 @@ class Home extends StatelessWidget {
                       },
                     ),
                     IconButton(
-                      icon: Icon(Icons.update, size: 100, color: Colors.red),
+                      icon: Icon(Icons.update, color: Colors.red),
+                      iconSize: 100,
+                      tooltip: 'Update your statusfeed',
+                      onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Home()),
+                        );
+                      },
+                    ),
+                  ],
+                ),
+              ),
+              Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    IconButton(
+                      icon: Icon(Icons.photo_library,  color: Colors.red),
+                      iconSize: 100,
                       tooltip: 'Change your background',
+                      onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Home()),
+                        );
+                      },
+                    ),
+                    IconButton(
+                      icon: Icon(Icons.update, color: Colors.red),
+                      iconSize: 100,
+                      tooltip: 'Update your statusfeed',
+                      onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Home()),
+                        );
+                      },
+                    ),
+                  ],
+                ),
+              ),
+              Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: <Widget>[
+                    IconButton(
+                      icon: Icon(Icons.photo_library,  color: Colors.red),
+                      iconSize: 100,
+                      tooltip: 'Change your background',
+                      onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => Home()),
+                        );
+                      },
+                    ),
+                    IconButton(
+                      icon: Icon(Icons.update, color: Colors.red),
+                      iconSize: 100,
+                      tooltip: 'Update your statusfeed',
                       onPressed: (){
                         Navigator.push(
                           context,
