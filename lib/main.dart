@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'MessageBoard.dart';
+import 'updatePhoto.dart';
+import 'FadeRoute.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -38,7 +40,7 @@ class Home extends StatelessWidget {
                       onPressed: (){
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => MessageBoard()),
+                          MaterialPageRoute(builder: (context) => updatePhoto()),
                         );
                       },
                     ),
@@ -49,7 +51,7 @@ class Home extends StatelessWidget {
                       onPressed: (){
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Home()),
+                          MaterialPageRoute(builder: (context) => MessageBoard()),
                         );
                       },
                     ),
