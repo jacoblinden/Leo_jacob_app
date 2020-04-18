@@ -39,6 +39,7 @@ class MessageBoard extends StatelessWidget{
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.red,
         onPressed:(){
           print(f.news);
         },
