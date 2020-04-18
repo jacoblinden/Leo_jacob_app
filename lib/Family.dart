@@ -1,5 +1,4 @@
-import 'package:g10project/Member.dart';
-
+import 'Member.dart';
 import 'News.dart';
 class Family{
   String _name;

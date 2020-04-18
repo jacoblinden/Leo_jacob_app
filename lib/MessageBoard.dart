@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:g10project/Member.dart';
+import 'Member.dart';
 import 'Family.dart';
-class MessageBoard{
+class MessageBoard extends StatelessWidget{
 
   Family f = new Family("Carlen", Member("Leo"));
   //f.createNews({name:("Test"), title:"test"});
