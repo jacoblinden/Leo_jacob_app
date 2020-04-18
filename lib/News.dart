@@ -2,7 +2,7 @@ class News{
   String _title;
   String _message;
 
-  News(this._title, this.:message);
+  News(this._title, this._message);
 
   String get title => _title;
 
