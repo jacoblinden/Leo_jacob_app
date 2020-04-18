@@ -12,9 +12,15 @@ class MessageBoard extends StatelessWidget{
         backgroundColor:Colors.red,
         title: Text("News"),
       ),
-      body: Center(
+      body:  Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage("assets/leo.png"),
+              fit: BoxFit.cover,
+            ),
+          ),
 
-        child: Column(
+          child:( Column(
 
           children: <Widget>[
             ListView.builder(
@@ -36,7 +42,8 @@ class MessageBoard extends StatelessWidget{
                 }
             ),
           ],
-        ),
+        )
+          ),
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.red,
@@ -46,6 +53,7 @@ class MessageBoard extends StatelessWidget{
         tooltip: 'Add news',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
-    );
+      );
+
   }
 }
