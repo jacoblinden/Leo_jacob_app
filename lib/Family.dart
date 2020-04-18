@@ -9,6 +9,15 @@ class Family{
     this._name =  name;
     _members.add(member);
     _news.add(new News ("Test","walla"));
+    _news.add(new News ("Tesft","walla"));
+    _news.add(new News ("Te2st","walla"));
+    _news.add(new News ("Tesvt","walla"));
+    _news.add(new News ("Tevrdfsqt","walla"));
+    _news.add(new News ("Teqwfgst","walla"));
+    _news.add(new News ("Test","walla"));
+    _news.add(new News ("Tesct","walla"));
+    print(_news);
+
   }
 
   String get name => _name;
