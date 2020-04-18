@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:g10project/MessageBoard.dart';
+import 'MessageBoard.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -37,7 +39,7 @@ class Home extends StatelessWidget {
                       onPressed: (){
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Home()),
+                          MaterialPageRoute(builder: (context) => MessageBoard()),
                         );
                       },
                     ),
